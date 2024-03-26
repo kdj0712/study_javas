@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class SolvingProblems {
+public class problemsWithoutDB {
     public static void main(String[] args) {
         ArrayList<HashMap> listQuestion = new ArrayList<HashMap>();
 
