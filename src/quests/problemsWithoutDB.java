@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class problemsWithoutDB {
     public static void main(String[] args) {
-        ArrayList<HashMap> listQuestion = new ArrayList<HashMap>();
+        ArrayList<HashMap<String, String>> listQuestion = new ArrayList<>();
 
         HashMap<String, String> Q1 = new HashMap<String, String>();
         HashMap<String, String> Q2 = new HashMap<String, String>();
@@ -34,6 +34,7 @@ public class problemsWithoutDB {
             System.out.print("답을 입력하세요 : ");
             Scanner scanner = new Scanner(System.in);
             listAnswer.add(scanner.nextLine());
+            scanner.close();
         }            
         System.out.print("당신이 입력하신 답은" + listAnswer +"입니다.");
     }
