@@ -5,9 +5,9 @@ public class WhilesIfsBreak {
     public static void main(String[] args) {
         boolean whileFlag = true;
         while (whileFlag) {
-            Scanner Scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
             System.out.print("숫자를 입력하세요 : ");
-            int number = Scanner.nextInt();
+            int number = scanner.nextInt();
             if (90<=number && number<=100){
                 System.out.println("당신의 학점은 A입니다");
             } else if (80<=number && number<=89){
