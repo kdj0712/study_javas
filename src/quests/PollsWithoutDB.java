@@ -20,9 +20,10 @@ public class PollsWithoutDB {
         for (int i=0; i<listFilm.size(); i++){
             System.out.println(listFilm.get(i));
             System.out.println(listQuestion);
-            Scanner Scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
             System.out.print("당신의 점수를 입력하세요 : ");
-            listAnswer.add(Scanner.nextLine());
+            listAnswer.add(scanner.nextLine());
+            scanner.close();
         }            
         System.out.print("당신의 평가는" + listAnswer +"입니다.");
     }
