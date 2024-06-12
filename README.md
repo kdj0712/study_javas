@@ -8,4 +8,4 @@
 ~$ docker-compose --project-name java_mysql up -d --build
 ```
 #### samples
-- [src/Sameple.java](./src/Sameple.java)
+- [src/Sample.java](./src/Sample.java)
